@@ -1,0 +1,62 @@
+body {
+  background-color: #fffcf8;
+  /* display:flex; */
+  justify-content: center;
+}
+
+.buttonWrapped {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 30px;
+
+}
+
+.button {
+  background-color: #fffcf8;
+  border-color: #a0937d;
+  color: #a0937d;
+  padding: 8px 33px;
+  border-radius: 8px;
+
+}
+
+button:hover {
+  background-color: #a0937d;
+  color: #fffcf8;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.buttonSide {
+  display: flex;
+  gap: 72px;
+}
+
+.title {
+  font-size: 46px;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.paragraph {
+  text-align: left;
+  width: 50%;
+  padding: 3%;
+  
+}
+
+.houseSymbol{
+  position: relative;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'font-size'
+}
+.logo{
+  transform:translate(768px, -220px);
+}
