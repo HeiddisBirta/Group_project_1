@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
   max-width: 100%;
   padding: 30px;
-
+  align-items: center;
 }
 
 .button {
@@ -46,17 +46,27 @@ button:hover {
   text-align: left;
   width: 50%;
   padding: 3%;
-  
+
 }
 
-.houseSymbol{
+.houseSymbol {
   position: relative;
 }
+/* in the google font symbol, they have a spesific css file that we can't see, it just
+comes with the code and the link.
+We can see the style when we inspect the page and if we want to change the style we need
+to make our style more "spesific" than their syle.
+so OUR style for the symbol is called .houseSymbol and their is called .material-symbols-outlined
+so when we do > then our is more spesific. we can also do !important after .houseSymbol */
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'font-size'
+/* .material=symbols-outlined {
+  font-size 100px !important;
+ }
+   */
+.houseSymbol>.material-symbols-outlined {
+  font-size: 100px;
 }
-.logo{
-  transform:translate(768px, -220px);
+
+.logo {
+  transform: translate(768px, -220px);
 }
