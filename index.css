@@ -59,13 +59,13 @@ to make our style more "spesific" than their syle.
 so OUR style for the symbol is called .houseSymbol and their is called .material-symbols-outlined
 so when we do > then our is more spesific. we can also do !important after .houseSymbol */
 
-/* .material=symbols-outlined {
+.material-symbols-outlined {
   font-size 100px !important;
  }
-   */
-.houseSymbol>.material-symbols-outlined {
+
+/* .houseSymbol>.material-symbols-outlined {
   font-size: 100px;
-}
+} */
 
 .logo {
   transform: translate(768px, -220px);
