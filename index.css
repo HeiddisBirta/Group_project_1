@@ -1,7 +1,18 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fffcf8;
-  /* display:flex; */
   justify-content: center;
+  margin: 0;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
 }
 
 .buttonWrapped {
@@ -12,45 +23,11 @@ body {
   align-items: center;
 }
 
-.button {
-  background-color: #fffcf8;
-  border-color: #a0937d;
-  color: #a0937d;
-  padding: 8px 33px;
-  border-radius: 8px;
-
-}
-
-button:hover {
-  background-color: #a0937d;
-  color: #fffcf8;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-.buttonSide {
-  display: flex;
-  gap: 72px;
-}
-
-.title {
-  font-size: 46px;
-}
-
-.text {
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-}
-
-.paragraph {
-  text-align: left;
-  width: 50%;
-  padding: 3%;
-
-}
-
 .houseSymbol {
   position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 /* in the google font symbol, they have a spesific css file that we can't see, it just
 comes with the code and the link.
@@ -59,14 +36,191 @@ to make our style more "spesific" than their syle.
 so OUR style for the symbol is called .houseSymbol and their is called .material-symbols-outlined
 so when we do > then our is more spesific. we can also do !important after .houseSymbol */
 
-.material-symbols-outlined {
-  font-size 100px !important;
- }
 
-/* .houseSymbol>.material-symbols-outlined {
-  font-size: 100px;
-} */
+
+.houseSymbol>.material-symbols-outlined {
+  font-size: 50px;
+  color: #a0937d;
+}
+
+.buttonSide {
+  display: flex;
+  gap: 72px;
+}
+
+.button {
+  background-color: #fffcf8;
+  border:1px solid #a0937d;
+  color: #a0937d;
+  padding: 8px 33px;
+  border-radius: 8px;
+
+}
+
+.button:hover {
+  background-color: #a0937d;
+  color: #fffcf8;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.ram{
+  background-color: #B6C7AA;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  text-align: left;
+  padding: 30px;
+  letter-spacing: .1em;
+  line-height: 2;
+  font-family: "Inter", sans-serif;
+  color: #a0937d;
+}
+
+.title {
+  font-size: 46px;
+  color: #a0937d;
+}
+
+.text {
+  font-size: 20px;
+}
 
 .logo {
-  transform: translate(768px, -220px);
+  text-align: right;
+  width: 50%;
+  display: flex;
+  max-width: 100%;
+  padding: 30px;
+  align-items: center;
 }
+
+h2, h3 {
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  display: flex;
+  color: #a0937d;
+  font-size: 46px;
+}
+
+.contactForm{
+  font-size: 20px;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.textSubscribe{
+  margin-top: 0;
+}
+
+
+
+.corner1{
+    border-radius: 8px;
+    border: none;
+    height: 1rem;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.corner2{
+  border-radius: 8px;
+  border: none;
+  height: 1rem;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+}
+.corner3{
+  border-radius: 8px;
+  border: none;
+  height: 1rem;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  padding: 20px;
+  padding-left: 10px;
+}
+
+.submitButton{
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSubmit{
+  background-color: #fffcf8;
+  border:1px solid #a0937d;
+  color: #a0937d;
+  padding: 8px 33px;
+  border-radius: 8px;
+}
+
+.buttonSubmit:hover {
+    background-color: #a0937d;
+    color: #fffcf8;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ .circleX2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ }
+
+  .circleX4{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  }
+
+ .circle1{
+  text-align: right;
+    width: 400px;
+    display: flex;
+    max-width: 100%;
+    padding: 30px;
+    align-items: center;
+ }
+
+ .circle2{
+  text-align: left;
+    width: 500px;
+    display: flex;
+    max-width: 100%;
+    padding: 30px;
+    align-items: center;
+    transform: translate(460px, 90px);
+ }
+
+ .circle3{
+  text-align: right;
+  width: 300px;
+  display: flex;
+  max-width: 100%;
+  padding: 50px;
+  align-items: center;
+  transform: translate(-750px, 330px);
+ }
+
+ .circle4{
+  text-align: left;
+  width: 400px;
+  display: flex;
+  max-width: 100%;
+  padding: 0px;
+  align-items: center;
+  transform: translate(-700px, 400px);
+ }
