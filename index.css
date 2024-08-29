@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-main{
+main {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -29,6 +29,7 @@ main{
   border: none;
   cursor: pointer;
 }
+
 /* in the google font symbol, they have a spesific css file that we can't see, it just
 comes with the code and the link.
 We can see the style when we inspect the page and if we want to change the style we need
@@ -50,7 +51,7 @@ so when we do > then our is more spesific. we can also do !important after .hous
 
 .button {
   background-color: #fffcf8;
-  border:1px solid #a0937d;
+  border: 1px solid #a0937d;
   color: #a0937d;
   padding: 8px 33px;
   border-radius: 8px;
@@ -64,7 +65,7 @@ so when we do > then our is more spesific. we can also do !important after .hous
   cursor: pointer;
 }
 
-.ram{
+.ram {
   background-color: #B6C7AA;
   display: flex;
   width: 100%;
@@ -100,7 +101,8 @@ so when we do > then our is more spesific. we can also do !important after .hous
   align-items: center;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Inter", sans-serif;
   justify-content: center;
   display: flex;
@@ -108,7 +110,7 @@ h2, h3 {
   font-size: 46px;
 }
 
-.contactForm{
+.contactForm {
   font-size: 20px;
   padding: 6rem;
   display: flex;
@@ -118,23 +120,13 @@ h2, h3 {
   gap: 1rem;
 }
 
-.textSubscribe{
+.textSubscribe {
   margin-top: 0;
 }
 
 
 
-.corner1{
-    border-radius: 8px;
-    border: none;
-    height: 1rem;
-    justify-content: center;
-    display: flex;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.corner2{
+.corner1 {
   border-radius: 8px;
   border: none;
   height: 1rem;
@@ -143,7 +135,18 @@ h2, h3 {
   cursor: pointer;
   padding: 10px;
 }
-.corner3{
+
+.corner2 {
+  border-radius: 8px;
+  border: none;
+  height: 1rem;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.corner3 {
   border-radius: 8px;
   border: none;
   height: 1rem;
@@ -154,58 +157,58 @@ h2, h3 {
   padding-left: 10px;
 }
 
-.submitButton{
+.submitButton {
   display: flex;
   justify-content: center;
 }
 
-.buttonSubmit{
+.buttonSubmit {
   background-color: #fffcf8;
-  border:1px solid #a0937d;
+  border: 1px solid #a0937d;
   color: #a0937d;
   padding: 8px 33px;
   border-radius: 8px;
 }
 
 .buttonSubmit:hover {
-    background-color: #a0937d;
-    color: #fffcf8;
-    transform: scale(1.1);
-    cursor: pointer;
+  background-color: #a0937d;
+  color: #fffcf8;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
- .circleX2{
+.circleX2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
- }
+}
 
-  .circleX4{
+.circleX4 {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  }
+}
 
- .circle1{
+.circle1 {
   text-align: right;
-    width: 400px;
-    display: flex;
-    max-width: 100%;
-    padding: 30px;
-    align-items: center;
- }
+  width: 400px;
+  display: flex;
+  max-width: 100%;
+  padding: 30px;
+  align-items: center;
+}
 
- .circle2{
+.circle2 {
   text-align: left;
-    width: 500px;
-    display: flex;
-    max-width: 100%;
-    padding: 30px;
-    align-items: center;
-    transform: translate(460px, 90px);
- }
+  width: 500px;
+  display: flex;
+  max-width: 100%;
+  padding: 30px;
+  align-items: center;
+  transform: translate(460px, 90px);
+}
 
- .circle3{
+.circle3 {
   text-align: right;
   width: 300px;
   display: flex;
@@ -213,9 +216,9 @@ h2, h3 {
   padding: 50px;
   align-items: center;
   transform: translate(-750px, 330px);
- }
+}
 
- .circle4{
+.circle4 {
   text-align: left;
   width: 400px;
   display: flex;
@@ -223,4 +226,4 @@ h2, h3 {
   padding: 0px;
   align-items: center;
   transform: translate(-700px, 400px);
- }
+}
